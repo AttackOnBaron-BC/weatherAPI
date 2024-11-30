@@ -59,6 +59,7 @@ class WeatherService {
       return err;
     }
   }
+  
   // Create destructureLocationData method
   private destructureLocationData(locationData: any[]): Coordinates {
     const lat = parseFloat(locationData[0].lat);

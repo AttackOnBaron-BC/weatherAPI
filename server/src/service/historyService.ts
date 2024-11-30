@@ -11,7 +11,6 @@ class City {
   }
 }
 // Complete the HistoryService class
-// Define a read method that reads from the searchHistory.json file
 class HistoryService {
   private async read() {
     return await fs.readFile('db/searchHistory.json', {
